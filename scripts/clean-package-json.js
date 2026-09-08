@@ -17,7 +17,7 @@ const dependencies = packageJson.dependencies;
   'dependencies',
   'packageManager',
   'jja',
-  'type'
+  'type',
 ].forEach(key => delete packageJson[key]);
 
 const esPrefix = 'es'; // es 前缀
@@ -61,15 +61,15 @@ packageJson = {
     'mudbean',
     'vvi',
   ],
-  homepage: 'https://npm.lmssee.com/table',
+  homepage: 'https://npm.gleanings.cn/table',
   dependencies,
   bugs: {
-    url: 'https://github.com/MrMudBean/table/issues',
+    url: 'https://github.com/gleanings/table/issues',
     email: 'Mr.MudBean@outlook.com',
   },
   repository: {
     type: 'git',
-    url: 'git+https://github.com/MrMudBean/table.git',
+    url: 'git+https://github.com/gleanings/table.git',
   },
   publishConfig: {
     access: 'public',
