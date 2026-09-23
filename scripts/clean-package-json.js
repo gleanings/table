@@ -29,7 +29,6 @@ const distParentPath = getDirectoryBy('dist', 'directory');
 packageJson = {
   ...packageJson,
   main: cjsPrefix + '/index.js', // 旧版本 CommonJs 入口
-  // module: esPrefix + '/index.js', // 旧版本 ESM 入口
   types: dtsPrefix + '/index.d.ts', // 旧版本类型入口
   author: {
     name: '泥豆君',
@@ -61,7 +60,7 @@ packageJson = {
     'mudbean',
     'vvi',
   ],
-  homepage: 'https://npm.gleanings.cn/table',
+  homepage: 'https://npms.gleanings.cn/table',
   dependencies,
   bugs: {
     url: 'https://github.com/gleanings/table/issues',

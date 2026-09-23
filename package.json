@@ -1,6 +1,6 @@
 {
   "name": "@vvi/table",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "type": "module",
   "private": true,
   "scripts": {
@@ -29,30 +29,30 @@
     "@rollup/plugin-node-resolve": "^16.0.3",
     "@rollup/plugin-terser": "^1.0.0",
     "@rollup/plugin-typescript": "^12.3.0",
-    "@types/node": "^26.5.0",
+    "@types/node": "^26.6.2",
     "@vvi/check-version": "^1.1.2",
-    "@vvi/node": "^5.0.1",
+    "@vvi/node": "^5.0.4",
     "@vvi/rollup-external": "^1.2.3",
     "eslint": "^9.39.5",
     "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-jsdoc": "^64.3.6",
+    "eslint-plugin-jsdoc": "^64.5.4",
     "globals": "^17.12.0",
     "gvv": "^1.1.0",
     "jja": "^2.5.5",
     "pjj": "^1.0.7",
-    "prettier": "^3.9.6",
-    "rollup": "^4.63.1",
+    "prettier": "^3.9.9",
+    "rollup": "^4.63.4",
     "rollup-plugin-cleanup": "^3.2.1",
     "rollup-plugin-copy": "^3.5.0",
     "tslib": "^2.8.1",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.70.0",
+    "typescript-eslint": "^8.70.1",
     "vjj": "^1.1.0"
   },
   "dependencies": {
-    "@vvi/is": "^2.0.7",
-    "@vvi/pen": "^3.0.4",
-    "@vvi/pen-static": "^1.1.5",
-    "@vvi/utils": "^2.1.1"
+    "@vvi/is": "^2.0.8",
+    "@vvi/pen": "^3.0.5",
+    "@vvi/pen-static": "^1.1.6",
+    "@vvi/utils": "^2.1.2"
   }
 }

@@ -17,11 +17,9 @@ export function table(
   const [tableEle, tablePro] = parse(options);
   let fontSize = 12;
   /**
-   * 核心技能
+   * # 核心技能
    *
-   *  这里将构建表格
-   *
-   *
+   * 这里将构建表格
    */
   const core = () => render(tableEle, fontSize);
 

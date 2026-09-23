@@ -5,6 +5,8 @@ import {
   writeJsonFileSync,
 } from '@vvi/node';
 
+// 文件已废弃
+
 const packageJson = readFileToJsonSync('./dist/package.json');
 
 packageJson.name = '@qqi/table';
